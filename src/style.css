@@ -1,0 +1,192 @@
+div#div_rollcall_wrapper{
+  display : none ;
+}
+
+canvas#canvas_main{
+  border : 2px solid black ;
+}
+table#table_rollcall{
+  width : 100% ;
+  border : 1px solid black ;
+}
+table.facepic{
+  border-collapse : collapse ;
+}
+th.desk, td.desk{
+  width : 110px ;
+  text-align : center ;
+  padding : 0px ;
+  border : 0px solid pink ;
+}
+td.facepic{
+  line-height : 0px ;
+}
+img.facepic{
+  margin : 0px ;
+  padding : 0px ;
+}
+span.span_player_name{
+  margin-top : 0px ;
+  border : 0px solid red ;
+  padding : 0px ;
+  text-align : center ;
+  font : 16pt arial ;
+}
+input.submit_role{
+  margin-top : 5px ;
+  text-align : center ;
+  font : 14pt arial ;
+  background : green ;
+  color : white ;
+  height : 100px ;
+}
+td.wide{
+  text-align : center ;
+}
+tr.tr_even{
+  background : white ;
+}
+tr.tr_odd{
+  background : silver ;
+}
+h3#h3_desk_title{
+  font-size : 24pt ;
+  text-align : center ;
+  font : arial ;
+  padding : 0.25em ;
+}
+
+div.tab     {
+  display : table ;
+  width : 100% ;
+}
+div.tab_cell{
+  display : table-cell ;
+  border : 0px solid red ;
+  vertical-align : top ;
+}
+div.tab_cell_left{
+  width : 410px ;
+}
+div.tab_cell_right{
+  350px ;
+}
+
+th.actions{
+  font : 24pt arial ;
+  text-align : center ;
+}
+input.submit_action{
+  width : 90% ;
+  height : 50px ;
+  margin : auto ;
+  font-size : 16pt ;
+}
+table.actions{
+  width : 90% ;
+  margin : auto ;
+}
+div#div_desk_wrapper{
+}
+
+p#p_lumi{
+  font : 20pt times , serif ;
+  text-align : center ;
+}
+
+table#table_tasks{
+  width : 100% ;
+}
+td.task, th.task{
+  text-align : center ;
+}
+td.task_pre    { background : black ; }
+td.task_during { background : blue  ; }
+td.task_success{ background : green ; }
+td.task_failure{ background : red   ; }
+
+
+th.th_task_timer{
+  width : 150px ;
+}
+td.td_task_timer{
+  width : 550px ;
+}
+
+
+table.actions{
+  width : 600px ;
+  border : 1px solid red ;
+}
+th.action_title{
+  text-align : center ;
+  font : 24pt arial ;
+}
+
+
+div#div_hidden_image{
+  display : none ;
+}
+
+th.th_task{
+  color : white ;
+  background : black ;
+}
+th#th_task_id{
+  width : 50px ;
+}
+th#th_task_status{
+  width : 50px ;
+}
+th#th_task_desk{
+  width : 50px ;
+}
+th#th_task_problem{
+  width : 300px ;
+}
+th#th_task_solution{
+  width : 300px ;
+}
+td.task{
+  text-align : center ;
+  font : 12pt arial ;
+  padding : 0.25em ;
+}
+
+div#div_task_timer{
+  width : 100% ;
+  background : black ;
+  padding : 5px ;
+}
+
+input#button_fetch_task_A, input#button_create_task_A{
+  width : 750px ;
+  height : 100px ;
+  font : 40pt arial ;
+}
+
+td.td_life{
+  width : 150px ;
+  height : 50px ;
+}
+td.td_life_alive{
+  background : rgb(100,255,100) ;
+}
+td.td_life_dead{
+  background : rgb(100,100,100) ;
+}
+table#table_lives{
+  width : 750px ;
+}
+
+div#div_timer, div#div_lumi{
+  font : 20pt arial ;
+}
+
+td.timerLumi{
+  width : 50% ;
+}
+table#table_timerLumi{
+  width : 750px ;
+  margin : auto ;
+}
